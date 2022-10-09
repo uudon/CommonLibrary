@@ -53,7 +53,7 @@ afterEvaluate {
             // Creates a Maven publication called "release".
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.jitpack'
+                groupId = 'com.github.uudon'
                 artifactId = 'CommonLibrary'
                 version = '1.0'
             }
