@@ -6,6 +6,9 @@ plugins {
     id 'maven-publish'
 }
 
+group = 'com.github.uudon'
+version = '1.0.2'
+
 android {
     namespace 'com.don.base.library'
     compileSdk 32
@@ -55,7 +58,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.uudon'
                 artifactId = 'CommonLibrary'
-                version = '1.0.1'
+                version = '1.0.2'
             }
         }
     }
