@@ -7,7 +7,7 @@ plugins {
 
 }
 group = 'com.github.uudon'
-version = '1.0.3'
+version = '1.0.4'
 android {
     namespace 'com.don.base.module_common'
     compileSdk 32
@@ -57,7 +57,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.uudon'
                 artifactId = 'CommonLibrary'
-                version = '1.0.3'
+                version = '1.0.4'
             }
         }
     }
