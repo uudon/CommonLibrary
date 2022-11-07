@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_main)
 
-        Log.setLogSwitch(false)
+        Log.setLogSwitch(true)
         Log.d("我是笨蛋")
     }
 }
