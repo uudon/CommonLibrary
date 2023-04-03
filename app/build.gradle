@@ -33,5 +33,6 @@ android {
 }
 
 dependencies {
+    testImplementation("com.squareup.okhttp3:mockwebserver:4.10.0")
     implementation project(":module_common")
 }

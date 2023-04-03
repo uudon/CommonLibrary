@@ -29,7 +29,6 @@ class MainActivity : Activity() {
     private fun request(url: String): String? {
         val client = OkHttpClient()
         val call = Request.Builder().url(url).build()
-
         val response = client.newCall(call).execute()
         return response.body?.string()
     }
